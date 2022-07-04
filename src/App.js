@@ -7,45 +7,60 @@ function App() {
     {
       title: 'Show Checking with Internet',
       primary: {
-        status: true,
+        status: 'full',
         text: '$ 20'
       },
       plus: {
-        status: false,
+        status: 'half',
         text: '$ 0'
       },
       premier: {
-        status: false,
+        status: 'empty',
         text: '$ 20'
       },
       subData: [
         {
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
           primary: {
-            status: true,
-            text: '$ 20'
+            status: 'full',
+            text: '$ 2000'
           },
           plus: {
-            status: false,
-            text: '$ 0'
+            status: 'half',
+            text: '$ 500'
           },
           premier: {
-            status: true,
-            text: '$ 30'
+            status: 'full',
+            text: '$ 300'
           }
         },
         {
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
           primary: {
-            status: false,
+            status: 'empty',
             text: '$ 10'
           },
           plus: {
-            status: false,
+            status: 'empty',
             text: '$ 0'
           },
           premier: {
-            status: false,
+            status: 'empty',
+            text: ''
+          }
+        },
+        {
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
+          primary: {
+            status: 'empty',
+            text: '$ 10'
+          },
+          plus: {
+            status: 'empty',
+            text: '$ 0'
+          },
+          premier: {
+            status: 'empty',
             text: ''
           }
         }
@@ -54,76 +69,185 @@ function App() {
     {
       title: '',
       primary: {
-        status: true,
+        status: 'full',
         text: ''
       },
       plus: {
-        status: false,
+        status: 'empty',
         text: '$ 10'
       },
       premier: {
-        status: true,
+        status: 'full',
         text: '$ 10'
       },
       subData: []
     },
     {
-      title: 'Lorem title',
+      title: 'Show Checking with Internet 222',
       primary: {
-        status: true,
+        status: 'full',
         text: '$ 20'
       },
       plus: {
-        status: false,
+        status: 'empty',
         text: '$ 0'
       },
       premier: {
-        status: false,
+        status: 'empty',
+        text: '$ 20'
+      },
+      subData: [
+        {
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
+          primary: {
+            status: 'full',
+            text: '$ 20'
+          },
+          plus: {
+            status: 'empty',
+            text: '$ 0'
+          },
+          premier: {
+            status: 'full',
+            text: '$ 30'
+          }
+        },
+        {
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
+          primary: {
+            status: 'empty',
+            text: '$ 10'
+          },
+          plus: {
+            status: 'empty',
+            text: '$ 0'
+          },
+          premier: {
+            status: 'empty',
+            text: ''
+          }
+        }
+      ]
+    },
+    {
+      title: 'Lorem title',
+      primary: {
+        status: 'full',
+        text: '$ 20'
+      },
+      plus: {
+        status: 'empty',
+        text: '$ 0'
+      },
+      premier: {
+        status: 'empty',
         text: '$ 330'
       },
       subData: [
         {
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
           primary: {
-            status: true,
+            status: 'full',
             text: '$ 20'
           },
           plus: {
-            status: false,
+            status: 'empty',
             text: '$ 0'
           },
           premier: {
-            status: true,
+            status: 'full',
             text: '$ 30'
           }
         },
         {
           text: 'dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
           primary: {
-            status: false,
+            status: 'empty',
             text: '$ 110'
           },
           plus: {
-            status: false,
+            status: 'empty',
             text: '$ 20'
           },
           premier: {
-            status: true,
+            status: 'full',
             text: '$ 11'
           },
         },
         {
           text: 'dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
           primary: {
-            status: true,
+            status: 'full',
             text: '$ 1'
           },
           plus: {
-            status: true,
+            status: 'full',
             text: ''
           },
           premier: {
-            status: true,
+            status: 'full',
+            text: '$ 11'
+          },
+        }
+      ]
+    },
+    {
+      title: 'Lorem title',
+      primary: {
+        status: 'full',
+        text: '$ 20'
+      },
+      plus: {
+        status: 'empty',
+        text: '$ 0'
+      },
+      premier: {
+        status: 'empty',
+        text: '$ 330'
+      },
+      subData: [
+        {
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
+          primary: {
+            status: 'full',
+            text: '$ 20'
+          },
+          plus: {
+            status: 'empty',
+            text: '$ 0'
+          },
+          premier: {
+            status: 'full',
+            text: '$ 30'
+          }
+        },
+        {
+          text: 'dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
+          primary: {
+            status: 'empty',
+            text: '$ 110'
+          },
+          plus: {
+            status: 'empty',
+            text: '$ 20'
+          },
+          premier: {
+            status: 'full',
+            text: '$ 11'
+          },
+        },
+        {
+          text: 'dolor sit amet consectetur adipisicing elit. Mollitia, laborum.',
+          primary: {
+            status: 'full',
+            text: '$ 1'
+          },
+          plus: {
+            status: 'full',
+            text: ''
+          },
+          premier: {
+            status: 'full',
             text: '$ 11'
           },
         }
@@ -145,6 +269,7 @@ function App() {
               onMouseEnter={() => setIsPrimaryHovered(true)}
               onMouseLeave={() => setIsPrimaryHovered(false)}
               className={styles.tableHeading}
+              style={{ transform: isPrimaryHovered ? 'scale(1.1)' : 'scale(1)' }}
             >
               Primary
             </th>
@@ -168,6 +293,8 @@ function App() {
           {tableData.map((data, index) => (
             <TRAndSubTR
               key={index}
+              // based even add
+              trStylingClass={index % 2 ? '#fff' : '#f2f2f2'}
               data={data}
               title={data.title}
               primary={data.primary}

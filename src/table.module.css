@@ -26,18 +26,26 @@ td {
     color: #fff;
 }
 
-.table tr {
+/* .table tr {
     background-color: red;
+} */
+
+/* table .tr-even {
+    background-color: purple !important;
 }
 
-.table tr:nth-child(1) {
+table .tr-odd {
+    background-color: hotpink !important;
+} */
+
+/* .table tr:nth-child(1) {
     background-color: #fff !important;
-}
+} */
 
-.table tr:nth-child(even) {
+/* .table tr:nth-child(even) {
     background-color: #fff;
 }
 
 .table tr:nth-child(odd) {
     background-color: #f2f2f2;
-}
+} */
